@@ -1,7 +1,7 @@
 *{
     font-size: 1rem;
     font-weight: 400;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: tipografia,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     margin: unset;
     padding: unset;
@@ -20,6 +20,12 @@ a{
 }
 
 /* -----------------------------------header---------------------------------- */
+
+header{
+    position: sticky;
+    top: 0;
+    color: bisque;
+}
 
 header nav{
     display: flex;
@@ -50,6 +56,8 @@ header nav ul{
     background-image: url(/Section\ \(4\).jpg);
     height: 553px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     color: aliceblue;
     align-items: center;
@@ -58,5 +66,43 @@ header nav ul{
 .jumbotron h1{
     font-size: 3.5rem;
     font-weight: 700;
-    
 }
+
+/* ----------------------cards------------------ */
+
+.section-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card__imagen{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card{
+    background-image: linear-gradient(90deg, #C4C4C4, #8C8379);
+}
+
+.card__container__title{
+    font-size: 2rem;
+}
+
+.card__container__description{
+   font-size: 12px;
+}
+
+/* ------ directivas ----- */
+
+
+@font-face {
+    font-family: tipografia;
+    src: url(/assets/Roboto-Regular.ttf);
+}
+
+
+
+
