@@ -14,6 +14,9 @@
     <link rel="shortcut icon" href="/assets/Frame.svg" type="image/x-icon">
     <title>Zapatos Jisus</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -100,7 +103,7 @@
                     </div>
                     <button class="card__container__button">Comprar</button>
                 </div>
-            </div>  
+            </div>
             <div class="card">
                 <img class="card__imagen" src="/img (2).png" alt="">
                 <div class="card__container">
@@ -153,35 +156,41 @@
                     </div>
                     <button class="card__container__button">Comprar</button>
                 </div>
-            </div>  
-        </section>
-        <section id="Pedidos">
-            <div>
-                <p>Pedidos</p>
             </div>
-            <form action="">
-                <input type="escribenos">
-                <button><img src="/send.svg" alt=""></button>
-            </form>
         </section>
-
+        <div class="input">
+            <section id="Pedidos">
+                <div class="Pedidos">
+                    <p class="Pedidos__title">Pedidos</p>
+                </div>
+                <form action="" class="search-bar">
+                    <input type="escribenos" placeholder="Buscar" name="q">
+                    <button type="submit"><img src="/send.svg" alt=""></button>
+                </form>
+            </section>
+        </div>
         <footer>
-            <div>
-            <ul>
-                <li>Home</li>
-                <li>Experience</li>
-                <li>Pagina 1</li>
-                <li>Pagina 2</li>
-                <li>Variedades</li>
-                <li>Contactanos</li>
-            </ul>
-                <div>
-                    <img src="/facebook.svg" alt="">
-                    <img src="/twitter-alt.svg" alt="">
-                    <img src="/youtube.svg" alt="">
-                    <p>© Copyright 2022 - ABC</p>
+            <div class="footercontainer">
+                <div class="footernav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Experience</a></li>
+                        <li><a href="">Pagina 1</a></li>
+                        <li><a href="">Pagina 2</a></li>
+                        <li><a href="">Variedade</a></li>
+                        <li><a href="">Contactanos</a></li>
+                    </ul>
+                </div>
+                <div class="socialicons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footerbottom">
+                    <p>© Copyright 2022 - ABC <span class="designer">Jesus</span></p>
                 </div>
             </div>
+
         </footer>
     </main>
 
