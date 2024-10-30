@@ -32,6 +32,7 @@ header nav{
     justify-content: space-between;
     align-items: center;
     padding: 12px 30px;
+    background: #C4C4C4;
 }
 
 header nav ul{
@@ -75,7 +76,7 @@ header nav ul{
     outline: none;
     padding: 24px 20px;
     font-size: 20px;
-    color: #cac7ff;
+    color: black;
 }
 ::placeholder{
     color: gray;
@@ -94,9 +95,6 @@ header nav ul{
     cursor: pointer;
 }
 
-.Pedidos{
-    
-}
 .Pedidos__title{
     font-size: 1.3em;
     
@@ -131,6 +129,7 @@ header nav ul{
     align-items: center;
     justify-content: center;
     padding: 10px 10px;
+    background-color: #C4C4C4;
 }
 
 .card__imagen{
@@ -149,6 +148,21 @@ header nav ul{
 
 .card__container__description{
    font-size: 12px;
+}
+.card__container__button{
+    width: 90%;
+    border-radius: 10px;
+    height: 50px;
+}
+.card__container{
+    justify-content: center;
+    padding: 30px;
+}
+.card__container__tallas__boton button{
+    border-radius: 10px;
+    width: 30px;
+    font-size: 20px;
+    
 }
 
 /* ------ directivas ----- */
@@ -238,6 +252,12 @@ footer{
         text-align: center;
         margin: 10px;
     }
+}
+.card__container__tallas__boton{
+    
+    height: 50px;
+    border-radius: 50%;
+    
 }
 
 
